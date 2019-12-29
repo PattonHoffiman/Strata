@@ -1,4 +1,48 @@
 body {
     color: #666;
-    font-family: 'Open Sans', arial, helvetica, sans-serif;
+    line-height: 1.7;
+    font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    transition: color .2s linear;
+}
+
+.main-header {
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    background-size: auto, cover;
+    padding: 124px 54px 72px 54px;
+    background-position: left top;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+}
+.main-header-link {
+    color: inherit;
+}
+.main-header-title {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: normal;
+    color: rgba(255,255,255,0.5);
+}
+.main-header-link:hover{
+    color: #49bf9d;
+}
+.main-header-title strong {
+    color: white;
+    font-weight: normal;
+}
+
+.main-content {
+    width: 65%;
+    margin-left: 35%;
+    box-sizing: border-box;
+    padding: 124px 54px 72px 54px;
 }
