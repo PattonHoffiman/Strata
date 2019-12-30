@@ -25,6 +25,9 @@ h5 {
 h6 {
     font-size: 15px;
 }
+li {
+    padding-left: .5em;
+}
 body {
     color: #666;
     line-height: 1.7;
@@ -38,6 +41,11 @@ code {
     padding: 0.25em 0.65em;
     border: 2px solid #efefef;
     font-family: "courier new", monospace;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1.1em;
 }
 a:hover {
     border-bottom-color: transparent;
@@ -54,8 +62,8 @@ blockquote {
     border-left: 5px solid #efefef;
 }
 h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
     color: #787878;
-    margin: 0 0 1em;
     font-weight: normal;
 }
 
@@ -94,4 +102,33 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 35%;
     box-sizing: border-box;
     padding: 124px 54px 72px 54px;
+}
+
+.ul-icons {
+    padding-left: 0;
+    list-style-type: none;
+}
+.ul-icons li {
+    color: #49bf9d;
+    font-size: 2em;
+    display: inline-block;
+}
+.ul-alternate {
+    padding-left: 0;
+    list-style-type: none;
+}
+.ul-alternate li {
+    padding-left: 0;
+    border-bottom: 2px solid #d8d8d8;
+}
+.ul-alternate li:last-child{
+    border: 0;
+}
+
+.row {
+    overflow: auto;
+}
+.col-2 {
+    width: 50%;
+    float: left;
 }
