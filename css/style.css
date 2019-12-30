@@ -64,26 +64,29 @@ blockquote {
     padding: .5em 0 .5em 1.5em;
     border-left: 5px solid #efefef;
 }
-input, textarea {
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    color: #787878;
+    font-weight: normal;
+}
+input, textarea, select {
     padding: 15px;
     background: #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
     border: 3px solid transparent;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0;
-    color: #787878;
-    font-weight: normal;
+input:focus, textarea:focus {
+    outline: none;
+    border: 3px solid #49bf9d;
 }
-input, label, textarea {
+input, label, textarea, select {
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
 }
-input:focus, textarea:focus {
-    outline: none;
-    border: 3px solid #49bf9d;
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
 }
 
 .main-header {
