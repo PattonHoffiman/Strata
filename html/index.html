@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Strata</title>
+        <meta charset="utf-8">
         <meta name="author" content="Patton Hoffiman">
         <meta name="description" content="A Project showing my skills with HTML5 and CSS3">
         <meta name="keywords" content="html5, css3, images, fonts, transitions, forms">
@@ -21,10 +22,11 @@
                 <strong>Patton Hoffiman</strong>,<br>
                 um estudante de ADS<br>
                 buscando aprimorar seus<br>
-                conhecimentos na área.<br>
-                Retirado de 
-                <a href="http://html5up.net" target="_blank" class="main-header-link">html5up.net</a>.
+                conhecimentos na área.
             </h1>
+            <p>Retirado de 
+                <a href="http://html5up.net" target="_blank" class="main-header-link">html5up.net</a>.
+            </p>
         </header>
         <main class="main-content">
             <section class="main-content-section">
@@ -43,21 +45,21 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                         <a href="../images/fulls/01.jpg" class="image-link">
-                            <img src="../images/thumbs/01.jpg" title="Carro estacionado em uma rua.">
+                            <img src="../images/thumbs/01.jpg" alt="Carro estacionado em uma rua.">
                         </a>
                         <p class="recent-works-card-title">Magna Sed Consequat Tempus</p>
                         <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
                         </article>
                         <article class="recent-works-card">
                             <a href="../images/fulls/02.jpg" class="image-link">
-                                <img src="../images/thumbs/02.jpg" title="Floresta de Pinheiros sob o Sol.">
+                                <img src="../images/thumbs/02.jpg" alt="Floresta de Pinheiros sob o Sol.">
                             </a>
                             <p class="recent-works-card-title">Ultricies Lacinia Interdum</p>
                             <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
                         </article>
                         <article class="recent-works-card">
                             <a href="../images/fulls/03.jpg" class="image-link">
-                                <img src="../images/thumbs/03.jpg" title="Biblioteca com teto de vidro.">
+                                <img src="../images/thumbs/03.jpg" alt="Biblioteca com teto de vidro.">
                             </a>
                             <p class="recent-works-card-title">Tortor Metus Commodo</p>
                             <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
@@ -66,21 +68,21 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                         <a href="../images/fulls/04.jpg" class="image-link">
-                            <img src="../images/thumbs/04.jpg" title="Pés subindo uma escada.">
+                            <img src="../images/thumbs/04.jpg" alt="Pés subindo uma escada.">
                         </a>
                         <p class="recent-works-card-title">Quam Neque Phasellus</p>
                         <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
                         </article>
                         <article class="recent-works-card">
                             <a href="../images/fulls/05.jpg" class="image-link">
-                                <img src="../images/thumbs/05.jpg" title="Montanha com neve sob céu azul.">
+                                <img src="../images/thumbs/05.jpg" alt="Montanha com neve sob céu azul.">
                             </a>
                             <p class="recent-works-card-title">Nunc Enim Commodo Alique</p>
                             <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
                         </article>
                         <article class="recent-works-card">
                             <a href="../images/fulls/06.jpg" class="image-link">
-                                <img src="../images/thumbs/06.jpg" title="Pequena cabana na floresta.">
+                                <img src="../images/thumbs/06.jpg" alt="Pequena cabana na floresta.">
                             </a>
                             <p class="recent-works-card-title">Risus Ornare Lacinia</p>
                             <p>Lorem ipsum dolor sit amet nisl ed nullam feugiat.</p>
@@ -116,17 +118,17 @@
                     <div class="col-1-3">
                         <address>
                         <p>
-                            <span>Address</span>:
+                            <span>Address: </span>
                             581, Rua Francisco Ulhani,<br>
                             Jardim México - Itatiba, São Paulo,<br>
                             Brazil.
                         </p>
                         <p>
-                            <span>Cellphone</span>:
+                            <span>Cellphone: </span>
                             011 99781-7617
                         </p>
                         <p>
-                            <span>Email</span>:
+                            <span>Email: </span>
                             PattonHoffiman@gmail.com
                         </p>
                     </address>
@@ -151,15 +153,16 @@
                 
                 <h4>Blockquote</h4>
                     <blockquote cite="https://www.mozila.org/en-US/about/history/details/">
-                        According to Mozzila's website, Firefox 1.0 was realeased in 2004 and became a big sucess.
+                        <p>
+                            According to Mozzila's website, Firefox 1.0 was realeased in 2004 and became a big sucess.
+                        </p>
                     </blockquote>
                 <h4>Preformatted</h4>
-                <pre>
-                    <code>
-&lt;script&gt;
-    alert('hi');
-&lt;script&gt;
-                    </code>
+                <pre><code>
+    &lt;script&gt;
+        alert('hi');
+    &lt;script&gt;
+    </code>
                 </pre>
                 <h4>Lists</h4>
                 <div class="row">
@@ -189,9 +192,9 @@
                         </ul>
                         <h4>Icons</h4>
                         <ul class="ul-icons">
-                            <li><i class="fab fa-facebook-square"></i></li>
-                            <li><i class="fab fa-instagram"></i></li>   
-                            <li><i class="fab fa-github-square"></i></li>   
+                            <li><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></li>
+                            <li><span class="hidden">Instagram</span><i class="fab fa-instagram"></i></li>   
+                            <li><span class="hidden">Github</span><i class="fab fa-github-square"></i></li>   
                         </ul>
                     </div>
                 </div>
@@ -317,7 +320,7 @@
                     <button class="button-default button-default-full button-default-stroke">Full</button>
                 </p>
                 <h4>Forms</h4>
-                <form>
+                <form action="#" method="post">
                     <label>
                         Name
                         <input type="text" name="name" id="name">
@@ -393,8 +396,9 @@
         </main>
         <footer class="main-footer">
             <ul class="ul-icons">
-                <li><a href="#" class="icon-link"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#" class="icon-link"><i class="fab fa-facebook-square"></i></a></li>
+                <li><span class="hidden">Instagram</span><a href="#" class="icon-link"><i class="fab fa-instagram"></i></a></li>
+                <li><span class="hidden">Facebook</span><a href="#" class="icon-link"><i class="fab fa-facebook-square"></i></a></li>
+                <li><span class="hidden">Github</span><a href="#" class="icon-link"><i class="fab fa-github-square"></i></a></li>
             </ul>
             <ul class="copyright">
                 <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net" class="footer-link">HTML5 UP</a></li>
