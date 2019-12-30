@@ -98,6 +98,7 @@ input[type="radio"], input[type="checkbox"] {
     width: 35%;
     height: 100%;
     position: fixed;
+    text-align: right;
     box-sizing: border-box;
     background-size: auto, cover;
     padding: 124px 54px 72px 54px;
@@ -128,11 +129,34 @@ input[type="radio"], input[type="checkbox"] {
     font-weight: normal;
 }
 
+.main-footer {
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    position: fixed;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 54px 72px 0;
+}
 .main-content {
     width: 65%;
     margin-left: 35%;
     box-sizing: border-box;
     padding: 124px 54px 72px 54px;
+}
+
+.icon-link {
+    border: none;
+    color: #787878;
+}
+.footer-link {
+    color: inherit;
+}
+.icon-link:hover {
+    color: #49bf9d;
+}
+.footer-link:hover {
+    color: #49bf9d;
 }
 
 .ul-icons {
