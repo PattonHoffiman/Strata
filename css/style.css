@@ -28,6 +28,9 @@ h6 {
 li {
     padding-left: .5em;
 }
+img {
+    max-width: 100%;
+}
 body {
     color: #666;
     line-height: 1.7;
@@ -108,8 +111,14 @@ input[type="radio"], input[type="checkbox"] {
     font-size: 22px;
     line-height: 1.5;
     text-align: right;
+    margin-top: 150px;
     font-weight: normal;
     color: rgba(255,255,255,0.5);
+}
+.main-header-link img {
+    float: right;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .main-header-link:hover{
     color: #49bf9d;
@@ -227,4 +236,12 @@ input[type="radio"], input[type="checkbox"] {
 }
 .col-2:first-child {
     margin-right: 1.5%;
+}
+
+.image-link {
+    border: 0;
+}
+.recent-works-card img {
+    overflow: hidden;
+    border-radius: 10px;
 }
